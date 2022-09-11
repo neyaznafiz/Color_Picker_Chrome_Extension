@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.headline{
+.headline {
     font-size: 25px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -24,18 +24,36 @@ body {
     cursor: pointer;
 }
 
-.colorGrid {
-    /* display: inline-block; */
+/* .colorGrid {
+    display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 5px;
+} */
+
+.colorValue {
+    display: inline-block;
+    height: 25px;
+    color: gainsboro;
 }
 
-.selectedColor{
+.selectedColor {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-size: 16px;
+}
+
+
+footer {
+    width: 330px;
+    margin-bottom: -130px;
+    margin-left: -15px;
+    padding: 7px 0px;
+    text-align: center;
+    background-color: gainsboro;
+    font-weight: 300;
+    letter-spacing: 2px;
 }

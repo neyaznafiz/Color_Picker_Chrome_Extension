@@ -21,7 +21,7 @@ btn.addEventListener('click', async () => {
 
         if (data.result) {
             const color = data.result.sRGBHex
-            colorGrid.style.backgroundColor = color
+            // colorGrid.style.backgroundColor = color
             colorValue.innerText = color + ' ' + 'Copied!'
 
 

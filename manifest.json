@@ -7,11 +7,13 @@
         "service_worker": "./JS/background.js"
     },
     "permissions": [
+        "storage",
         "activeTab",
         "scripting"
     ],
+    "options_page": "./HTML/options.html",
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "./HTML/popup.html",
         "default_icon": "./Images/logo_128.png"
     },
     "icons": {

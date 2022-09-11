@@ -1,5 +1,5 @@
 body {
-    background: #f1f5f9;
+    background: #859277;
 }
 
 .wrapper {
@@ -7,8 +7,16 @@ body {
     text-align: center;
 }
 
+.headline{
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
 .pic-color-btn {
     width: 200px;
+    height: 40px;
+    font-size: 15px;
     outline: none;
     border: none;
     padding: 5px;

@@ -1,0 +1,9 @@
+{
+    "name": "Color Picker",
+    "description": "A color picker extension.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker" : "./JS/background.js"
+    }
+}

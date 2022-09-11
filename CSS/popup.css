@@ -17,8 +17,17 @@ body {
 }
 
 .colorGrid {
-    display: inline-block;
+    /* display: inline-block; */
     width: 20px;
     height: 20px;
-    z-index: 999;
+    border-radius: 5px;
+}
+
+.selectedColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 10px 0px;
+    font-size: 16px;
 }

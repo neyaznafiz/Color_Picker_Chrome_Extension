@@ -16,10 +16,15 @@ btn.addEventListener('click', async () => {
         const [data] = injectionResults
         if (data.result) {
             const color = data.result.sRGBHex
-            console.log(color);
             colorGrid.style.backgroundColor = color
-            colorValue.innerText = color
-            console.log(colorGrid);
+            colorValue.innerText = color + ' ' + 'Copied!'
+
+
+            try {
+                await navigator.clipboard.writeText(color)
+            } catch (error) {
+                console.error(error)
+            }
         }
     })
 })

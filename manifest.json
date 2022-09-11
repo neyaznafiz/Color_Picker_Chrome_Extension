@@ -1,7 +1,7 @@
 {
     "name": "Color Picker",
     "description": "A color picker extension. With this extension, you can pick any color from anywhere in your window, from inside and also outside of your browser.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 3,
     "background": {
         "service_worker": "./JS/background.js"

@@ -6,6 +6,10 @@
     "background": {
         "service_worker": "./JS/background.js"
     },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "./Images/logo_128.png"
+    },
     "icons": {
         "32": "./Images/logo_32.png",
         "48": "./Images/logo_48.png",
